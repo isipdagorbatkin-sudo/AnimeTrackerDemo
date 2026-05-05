@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Bash(npx create-next-app@latest anime-tracker --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --yes)",
+      "Bash(npm run *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(npm list *)",
+      "Bash(cd /c/Users/denis/Desktop/Claude/anime-tracker && cat node_modules/next/package.json | grep -A 5 '\"version\"')",
+      "Read(//c/c/Users/denis/Desktop/Claude/anime-tracker/node_modules/next/**)",
+      "Bash(cd /c/Users/denis/Desktop/Claude && ls -la)",
+      "Read(//c/c/Users/denis/Desktop/**)",
+      "Bash(mv anime-tracker/* .)",
+      "Bash(mv anime-tracker/.* .)",
+      "Bash(npm install *)",
+      "Bash(npm view *)",
+      "Bash(npx shadcn@latest add card input button avatar scroll-area badge)"
+    ]
+  }
+}
